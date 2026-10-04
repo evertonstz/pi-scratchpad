@@ -36,10 +36,14 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.5.14",
-		"semantic-release": "^25.0.9"
+		"@earendil-works/pi-coding-agent": "^1.0.2",
+		"@types/node": "^26.6.4",
+		"semantic-release": "^25.0.9",
+		"typescript": "^7.0.2"
 	},
 	"scripts": {
 		"check": "biome check .",
-		"format": "biome format --write ."
+		"format": "biome format --write .",
+		"typecheck": "tsc"
 	}
 }
